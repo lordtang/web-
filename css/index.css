@@ -1,0 +1,199 @@
+/*通用样式*/
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+}
+
+#lk_header .top-bar{
+    height: 40px;
+    border-bottom: 1px solid gray;
+    line-height: 39px;
+}
+
+
+#lk_header .top-bar .container .row>div+div{
+    border-left: 1px solid #e0e0e0;
+}
+
+#lk_header .top-bar .container .row .top-bar-1 a{
+    position: relative;
+}
+
+
+#lk_header .top-bar .container .row .top-bar-1 a img{
+    display: none;
+    z-index: 9999;
+
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -10px;
+
+}
+#lk_header .top-bar .container .row .top-bar-1 a:hover img{
+    display: block;
+
+}
+
+#lk_header .top-nav{
+    margin-top: 10px;
+}
+
+#lk_header .navbar-lk{
+    background-color: #fff;
+    margin-bottom: 0px;
+}
+
+#lk_header .navbar-lk .navbar-brand{
+    height: 70px;
+    padding: 10px 15px;
+    margin-bottom: 0px;
+}
+
+#lk_header .navbar-lk .navbar-nav a{
+    height: 70px;
+    line-height: 40px;
+}
+
+#lk_header .navbar-lk .navbar-nav a:hover{
+    color: #000000;
+}
+
+#lk_header .navbar-lk .navbar-nav li.active a,
+#lk_header .navbar-lk .navbar-nav li a:hover
+{
+    color: #000;
+    background-color: transparent;
+    border-bottom: 2px solid #0AB4F7;
+}
+#lk_carousel .container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+.navbar-toggle{
+    margin-top: 18px;
+}
+
+#lk_carousel img{}
+#lk_carousel .item{
+    background:no-repeat center center;
+}
+
+@media screen and (min-device-width: 800px){
+    #lk_carousel .item{
+        height:600px;
+    }
+}
+#lk_about h1{
+
+}
+#lk_about .container img{
+    height: 300px;
+}
+#lk_about .container p{
+    line-height: 30px;
+    font-size: 19px;
+}
+
+#lk_product {
+    background-color: #c9c9c9;
+    padding: 30px 0px;
+}
+#lk_product .container .nav{
+    color: #000;
+    font-size: 18px;
+}
+#lk_product .container .nav a{
+    color: #999;
+
+}
+
+#lk_product .container .nav li.active a{
+    border: none;
+    background-color: transparent;
+    color: #000;
+    border-bottom: 2px solid #0AB4F7;
+
+}
+
+#lk_product .container .nav a:hover{
+    border-bottom: 2px solid #0AB4F7;
+}
+
+
+#lk_product .tab-content{
+    padding-top: 20px;
+
+}
+
+#lk_product .pd-left{
+    padding: 40px 0;
+}
+
+#pd_one_1{
+    margin: 10px 0;
+}
+
+#pd_one_2 .breadcrumb{
+    background-color: transparent;
+}
+
+#lk_hot .lesson{
+    padding: 15px 10px;
+}
+#lk_hot .lesson .media-left{
+    width: 15%;
+}
+#lk_hot .lesson .media-body{
+    width: 65%;
+    vertical-align: middle;
+}
+#lk_hot .lesson .media-right{
+    width: 20%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+#lk_link .logos{
+    list-style: none;
+}
+#lk_link .center{
+    text-align: center;
+}
+
+#lk_link  li{
+    display: inline-block;
+    padding: 20px 30px;
+
+}
+
+#lk_footer{
+    background-color: black;
+    color: white;
+}
+
+#lk_footer li{
+    list-style: none;
+}
+
+#lk_footer .left .row{
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+#lk_footer .center{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#lk_footer .right{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
